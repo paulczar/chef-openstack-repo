@@ -1,0 +1,9 @@
+.chef/checksums/
+.chef/bootstrap/
+.chef/*.pem
+*.swo
+*.swp
+*~
+.DS_Store
+/cookbooks
+/tmp

@@ -1,0 +1,13 @@
+berksfile:
+
+cookbooks:
+
+roles:
+- os-base:
+
+environments:
+- example:
+
+data bags:
+
+nodes:
