@@ -4,6 +4,7 @@ cookbooks:
 
 roles:
 - os-base:
+- os-ops-messaging:
 
 environments:
 - example:
@@ -11,3 +12,6 @@ environments:
 data bags:
 
 nodes:
+- ubuntu2-1204.vm:
+    run_list: role[os-ops-messaging]
+    options: -i ~/.ssh/mray.pem -x mray --sudo -E example
