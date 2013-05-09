@@ -4,11 +4,15 @@ cookbooks:
 - openstack-common:
 - openstack-ops-database:
 - openstack-ops-messaging:
+- openstack-identity:
 
 roles:
 - os-base:
 - os-ops-messaging:
 - os-ops-database:
+- os-identity:
+- os-identity-api:
+- os-identity-api-admin:
 
 environments:
 - example:
@@ -16,6 +20,6 @@ environments:
 data bags:
 
 nodes:
-- ubuntu2-1204.vm:
-    run_list: role[os-ops-messaging],role[os-ops-database]
-    options: -i ~/.ssh/mray.pem -x mray --sudo -E example
+# - ubuntu2-1204.vm:
+#     run_list: role[os-ops-messaging],role[os-ops-database]
+#     options: -i ~/.ssh/mray.pem -x mray --sudo -E example
