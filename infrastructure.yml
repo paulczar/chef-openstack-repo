@@ -1,10 +1,14 @@
 berksfile:
 
 cookbooks:
+- openstack-common:
+- openstack-ops-database:
+- openstack-ops-messaging:
 
 roles:
 - os-base:
 - os-ops-messaging:
+- os-ops-database:
 
 environments:
 - example:
@@ -13,5 +17,5 @@ data bags:
 
 nodes:
 - ubuntu2-1204.vm:
-    run_list: role[os-ops-messaging]
+    run_list: role[os-ops-messaging],role[os-ops-database]
     options: -i ~/.ssh/mray.pem -x mray --sudo -E example

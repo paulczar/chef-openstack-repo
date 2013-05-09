@@ -14,8 +14,8 @@ cookbook 'postgresql', '2.4.0'
 cookbook 'rabbitmq', '2.0.0'
 cookbook 'xfs', '1.1.0'
 cookbook 'yum', '2.2.0'
-cookbook 'openstack-common', path: '/Users/mray/ws/cookbooks/openstack-common'
-cookbook 'openstack-ops-messaging', path: '/Users/mray/ws/cookbooks/openstack-ops-messaging'
-
-#cookbook 'openstack-common', github: "att-cloud/cookbook-openstack-common", ref: "dab6766"
+# cookbook 'openstack-common', path: '/Users/mray/ws/cookbooks/openstack-common'
+# cookbook 'openstack-ops-database', path: '/Users/mray/ws/cookbooks/openstack-ops-messaging'
+# cookbook 'openstack-ops-messaging', path: '/Users/mray/ws/cookbooks/openstack-ops-messaging'
+# cookbook 'openstack-common', github: "att-cloud/cookbook-openstack-common", ref: "dab6766"
 
