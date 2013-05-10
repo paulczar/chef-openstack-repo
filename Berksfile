@@ -15,9 +15,10 @@ cookbook 'rabbitmq', '2.0.0'
 cookbook 'xfs', '1.1.0'
 cookbook 'yum', '2.2.0'
 
-cookbook 'openstack-common', github: "mattray/cookbook-openstack-common", branch: 'packages'
-cookbook 'openstack-ops-database', github: 'mattray/cookbook-openstack-ops-database', branch: 'grizzly'
-cookbook 'openstack-ops-messaging', github: 'mattray/cookbook-openstack-ops-messaging', branch: 'grizzly'
-cookbook 'openstack-identity', github: 'mattray/cookbook-openstack-identity', branch: 'grizzly'
+# cookbook 'openstack-common', github: "mattray/cookbook-openstack-common", branch: 'packages'
+# cookbook 'openstack-ops-database', github: 'mattray/cookbook-openstack-ops-database', branch: 'grizzly'
+# cookbook 'openstack-ops-messaging', github: 'mattray/cookbook-openstack-ops-messaging', branch: 'grizzly'
+# cookbook 'openstack-identity', github: 'mattray/cookbook-openstack-identity', branch: 'grizzly'
+# cookbook 'openstack-image', github: 'mattray/cookbook-openstack-image', branch: 'grizzly'
 
 # cookbook 'ohai', github: 'att-cloud/cookbook-ohai', ref: 'bba6701', protocol: :ssh
