@@ -1,7 +1,6 @@
 name "os-identity"
 description "Roll-up role for Identity"
 run_list(
-  "recipe[openstack-identity::db]",
   "role[os-identity-api]",
   "role[os-identity-api-admin]"
   )
