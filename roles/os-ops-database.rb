@@ -7,8 +7,8 @@ run_list(
 
 override_attributes(
   "openstack" => {
-    "database" => {
-      "role" => "os-ops-database"
+    "role" => {
+      "database" => "os-ops-database"
     }
   }
 )

@@ -7,8 +7,8 @@ run_list(
 
 override_attributes(
   "openstack" => {
-    "messaging" => {
-      "role" => "os-ops-messaging"
+    "role" => {
+      "messaging" => "os-ops-messaging"
     }
   }
 )
