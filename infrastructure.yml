@@ -2,10 +2,12 @@ berksfile:
     options: '--no-freeze --halt-on-frozen'
 
 cookbooks:
-# - openstack-common:
-# - openstack-ops-database:
-# - openstack-ops-messaging:
-# - openstack-identity:
+- emacs:
+- openstack-common:
+- openstack-ops-database:
+- openstack-ops-messaging:
+- openstack-identity:
+- openstack-image:
 
 roles:
 - os-base:
@@ -14,6 +16,9 @@ roles:
 - os-identity:
 - os-identity-api:
 - os-identity-api-admin:
+- os-image:
+- os-image-api:
+- os-image-registry:
 
 environments:
 - example:
@@ -25,5 +30,5 @@ data bags:
 
 nodes:
 # - ubuntu2-1204.vm:
-#     run_list: role[os-ops-messaging],role[os-ops-database]
+#     run_list: role[os-ops-messaging],role[os-ops-database],role[os-identity],role[os-image]
 #     options: -i ~/.ssh/mray.pem -x mray --sudo -E example
