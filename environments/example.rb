@@ -7,7 +7,13 @@ override_attributes(
     "root_network_acl" => "%"
   },
   "openstack" => {
-    "developer_mode" => true
+    "developer_mode" => true,
+    "role" => {
+      "database" => "os-ops-database",
+      "identity" => "os-identity",
+      "image" => "os-image",
+      "messaging" => "os-ops-messaging"
+    }
   }
   # "glance" => {
   #   "image_upload" => true,
