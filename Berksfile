@@ -14,8 +14,10 @@ cookbook 'postgresql', '2.4.0'
 cookbook 'rabbitmq', '2.0.0'
 cookbook 'xfs', '1.1.0'
 cookbook 'yum', '2.2.0'
-# cookbook 'openstack-common', path: '/Users/mray/ws/cookbooks/openstack-common'
-# cookbook 'openstack-ops-database', path: '/Users/mray/ws/cookbooks/openstack-ops-messaging'
-# cookbook 'openstack-ops-messaging', path: '/Users/mray/ws/cookbooks/openstack-ops-messaging'
-# cookbook 'openstack-common', github: "att-cloud/cookbook-openstack-common", ref: "dab6766"
 
+cookbook 'openstack-common', github: "mattray/cookbook-openstack-common", branch: 'packages'
+cookbook 'openstack-ops-database', github: 'mattray/cookbook-openstack-ops-database', branch: 'grizzly'
+cookbook 'openstack-ops-messaging', github: 'mattray/cookbook-openstack-ops-messaging', branch: 'grizzly'
+cookbook 'openstack-identity', github: 'mattray/cookbook-openstack-identity', branch: 'grizzly'
+
+# cookbook 'ohai', github: 'att-cloud/cookbook-ohai', ref: 'bba6701', protocol: :ssh

@@ -1,10 +1,11 @@
 berksfile:
+    options: '--no-freeze --halt-on-frozen'
 
 cookbooks:
-- openstack-common:
-- openstack-ops-database:
-- openstack-ops-messaging:
-- openstack-identity:
+# - openstack-common:
+# - openstack-ops-database:
+# - openstack-ops-messaging:
+# - openstack-identity:
 
 roles:
 - os-base:
@@ -18,6 +19,9 @@ environments:
 - example:
 
 data bags:
+# - pxe_dust:
+#     items:
+#     - "*"
 
 nodes:
 # - ubuntu2-1204.vm:
