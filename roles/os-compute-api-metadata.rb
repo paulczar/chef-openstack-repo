@@ -2,5 +2,5 @@ name "os-compute-api-metadata"
 description "OpenStack compute metadata API service"
 run_list(
   "role[os-base]",
-  "recipe[os-compute::api-metadata]"
+  "recipe[openstack-compute::api-metadata]"
 )
