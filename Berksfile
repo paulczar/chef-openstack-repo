@@ -20,5 +20,6 @@ cookbook 'yum', '2.2.0'
 # cookbook 'openstack-ops-messaging', github: 'mattray/cookbook-openstack-ops-messaging', branch: 'grizzly'
 # cookbook 'openstack-identity', github: 'mattray/cookbook-openstack-identity', branch: 'grizzly'
 # cookbook 'openstack-image', github: 'mattray/cookbook-openstack-image', branch: 'grizzly'
+# cookbook 'openstack-dashboard', github: 'mattray/cookbook-openstack-dashboard', branch: 'grizzly'
 
 # cookbook 'ohai', github: 'att-cloud/cookbook-ohai', ref: 'bba6701', protocol: :ssh
