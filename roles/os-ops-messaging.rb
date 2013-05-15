@@ -5,11 +5,3 @@ run_list(
   "recipe[openstack-ops-messaging]"
 )
 
-override_attributes(
-  "openstack" => {
-    "messaging" => {
-      "role" => "os-ops-messaging"
-    }
-  }
-)
-
