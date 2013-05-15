@@ -4,11 +4,3 @@ run_list(
   "role[os-image-registry]",
   "role[os-image-api]"
   )
-
-override_attributes(
-  "openstack" => {
-    "role" => {
-      "image" => "os-image"
-    }
-  }
-  )

@@ -5,12 +5,3 @@ run_list(
   "recipe[openstack-dashboard::db]",
   "recipe[openstack-dashboard::server]"
   )
-
-
-override_attributes(
-  "openstack" => {
-    "role" => {
-      "dashboard" => "os-dashboard"
-    }
-  }
-  )

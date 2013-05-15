@@ -9,6 +9,7 @@ override_attributes(
   "openstack" => {
     "developer_mode" => true,
     "role" => {
+      "dashboard" => "os-dashboard",
       "database" => "os-ops-database",
       "identity" => "os-identity",
       "image" => "os-image",
