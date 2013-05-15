@@ -1,8 +1,7 @@
 name "os-identity"
-description "Roll-up role for Keystone"
+description "Roll-up role for Identity"
 run_list(
   "role[os-base]",
-  "role[os-ops-database]",
   "recipe[openstack-identity::db]",
   "recipe[openstack-identity::server]",
   "recipe[openstack-identity::registration]"
