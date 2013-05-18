@@ -10,7 +10,7 @@ run_list(
   "role[os-compute-scheduler]",
   "role[os-compute-api]",
   "role[os-block-storage]",
-  "role[os-compute-certs]",
+  "role[os-compute-cert]",
   "role[os-compute-vncproxy]",
   "role[os-dashboard]"
   )

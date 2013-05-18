@@ -6,19 +6,50 @@ cookbooks:
 - openstack-common:
 - openstack-ops-database:
 - openstack-ops-messaging:
+- openstack-block-storage:
+- openstack-compute:
+- openstack-dashboard:
 - openstack-identity:
 - openstack-image:
+- openstack-metering:
+- openstack-network:
+- openstack-object-storage:
+
 
 roles:
 - os-base:
 - os-ops-messaging:
 - os-ops-database:
-- os-identity:
-- os-identity-api:
+- allinone-compute:
+- os-compute-single-controller:
+- os-block-storage-api:
+- os-block-storage-scheduler:
+- os-block-storage-worker:
+- os-block-storage:
+- os-compute-api-ec2:
+- os-compute-api-metadata:
+- os-compute-api-os-compute:
+- os-compute-api:
+- os-compute-cert:
+- os-compute-scheduler:
+- os-compute-vncproxy:
+- os-compute-worker:
+- os-dashboard:
 - os-identity-api-admin:
-- os-image:
+- os-identity-api:
+- os-identity:
+- os-identity:
 - os-image-api:
 - os-image-registry:
+- os-image:
+- os-image:
+- os-network:
+- os-object-storage-account:
+- os-object-storage-container:
+- os-object-storage-management:
+- os-object-storage-object:
+- os-object-storage-proxy:
+- os-object-storage:
 
 environments:
 - example:
