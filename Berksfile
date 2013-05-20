@@ -25,3 +25,15 @@ cookbook 'yum', '2.2.2'
 # cookbook 'openstack-ops-database', github: 'stackforge/cookbook-openstack-ops-database'
 # cookbook 'openstack-ops-messaging', github: 'stackforge/cookbook-openstack-ops-messaging'
 
+cookbook 'openstack-block-storage',  github: 'mattray/cookbook-openstack-block-storage'
+cookbook 'openstack-common',         github: 'mattray/cookbook-openstack-common'
+cookbook 'openstack-compute',        github: 'mattray/cookbook-openstack-compute'
+cookbook 'openstack-dashboard',      github: 'mattray/cookbook-openstack-dashboard'
+cookbook 'openstack-identity',       github: 'mattray/cookbook-openstack-identity'
+cookbook 'openstack-image',          github: 'mattray/cookbook-openstack-image'
+#cookbook 'openstack-metering',       github: 'mattray/cookbook-openstack-metering', branch: "grizzly"
+#cookbook 'openstack-network',        github: 'mattray/cookbook-openstack-network', branch: "grizzly"
+#cookbook 'openstack-object-storage', github: "mattray/cookbook-openstack-object-storage", branch: "grizzly"
+cookbook 'openstack-ops-database',   github: 'mattray/cookbook-openstack-ops-database', branch: "grizzly"
+cookbook 'openstack-ops-messaging',  github: 'mattray/cookbook-openstack-ops-messaging', branch: "grizzly"
+
